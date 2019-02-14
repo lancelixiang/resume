@@ -48,9 +48,10 @@ img {
 }
 
 .column {
-    width: 1002px;
+    width: 1000px;
     line-height: 28px;
-    border: 1px solid #dedede
+    border: 1px solid #dedede;
+    margin: auto;
 }
 
 .column .hbox {
@@ -70,10 +71,11 @@ img {
 }
 
 .column .box1 {
-    width: 100%;
+    width: 1002px;
     word-wrap: break-word;
     color: #ffffff;
-    background-color: #3f4160
+    background-color: #3f4160;
+    margin: 0 -1px;
 }
 
 .column .box2 {
@@ -82,8 +84,9 @@ img {
 }
 
 .column .tba {
-    width: 940px;
-    padding: 0 30px 15px
+    display: block;
+    width: 900px;
+    padding: 0 50px 15px
 }
 
 .column .tbb {
@@ -119,7 +122,6 @@ img {
 }
 
 .column .plate1, .column .plate2 {
-    width: 430px;
     height: 54px;
     font-size: 16px;
     font-weight: bold;
