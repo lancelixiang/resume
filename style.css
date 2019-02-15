@@ -6,7 +6,8 @@ html, body, div, p, ul, li {
 body {
     font-size: 14px;
     font-family: "microsoft yahei", arial, sans-serif;
-    background-color: #ffffff
+    background-color: #fff;
+    color: #333;
 }
 
 ul {
@@ -33,6 +34,13 @@ th, td {
     padding: 0;
     text-align: left;
     line-height: 28px
+}
+
+td label {
+    float: left;
+    width: 150px;
+    text-align: right;
+
 }
 
 img {
@@ -74,7 +82,7 @@ img {
 .box1 {
     width: 1000px;
     word-wrap: break-word;
-    color: #ffffff;
+    color: #fff;
     background-color: #3f4160;
 }
 
@@ -85,7 +93,7 @@ img {
 
 .box1 .infr {
     width: 767px;
-    color: #ffffff;
+    color: #fff;
     table-layout: auto
 }
 
