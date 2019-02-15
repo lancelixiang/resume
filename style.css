@@ -13,6 +13,10 @@ ul {
     list-style: none;
 }
 
+ul ul {
+    padding-left: 1em;
+}
+
 li {
     line-height: 28px
 }
@@ -105,6 +109,11 @@ img {
     border-top: 1px solid #eee;
 }
 
-.ui-indent2{
+.ui-indent2 {
     text-indent: 2em;
+}
+
+.ui-indent5R {
+    text-indent: -5em;
+    padding-left: 5em;
 }
