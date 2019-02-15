@@ -7,7 +7,7 @@ body {
     font-size: 14px;
     font-family: "microsoft yahei", arial, sans-serif;
     background-color: #fff;
-    color: #333;
+    color: #444;
 }
 
 ul {
@@ -49,11 +49,11 @@ img {
     margin: auto;
 }
 
-.column {
+.wrapper {
     width: 1000px;
     line-height: 28px;
     border: 1px solid #dedede;
-    margin: auto;
+    margin: auto auto -1px auto;
 }
 
 .head {
@@ -75,7 +75,7 @@ img {
     height: 54px;
     font-size: 16px;
     font-weight: bold;
-    color: #818ba3;
+    color: #444;
     line-height: 54px;
 }
 
@@ -109,12 +109,12 @@ img {
 
 .box2 td {
     line-height: 28px;
-    color: #666666
 }
 
 .box {
     padding: 0 50px 20px;
     border-top: 1px solid #eee;
+    margin-top: -1px;
 }
 
 .ui-indent2 {
@@ -124,4 +124,20 @@ img {
 .ui-indent5R {
     text-indent: -5em;
     padding-left: 5em;
+}
+
+.ui-pageBreak {
+    page-break-after: always;
+}
+
+@media screen {
+    body {
+        margin-bottom: 50px;
+    }
+}
+
+@media print {
+    .box1 .infr {
+        color: #333;
+    }
 }
