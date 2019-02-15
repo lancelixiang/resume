@@ -28,6 +28,7 @@ th, td {
     font-size: 14px;
     padding: 0;
     text-align: left;
+    line-height: 28px
 }
 
 img {
@@ -43,22 +44,22 @@ img {
     margin: auto;
 }
 
-.column .head {
+.head {
     display: block;
     background-color: #fafafa
 }
 
-.column .line {
+.line {
     border-top: 1px solid #eee;
 }
 
-.column .con {
+.con {
     border-top: 1px dotted #eee;
     margin-top: 15px;
     padding-top: 15px;
 }
 
-.column .title {
+.title {
     height: 54px;
     font-size: 16px;
     font-weight: bold;
@@ -66,40 +67,44 @@ img {
     line-height: 54px;
 }
 
-.column .box1 {
+.box1 {
     width: 1000px;
     word-wrap: break-word;
     color: #ffffff;
     background-color: #3f4160;
 }
 
-.column .box1 .hbox {
+.box1 .hbox {
     width: 185px;
     height: 154px
 }
 
-.column .box1 .infr {
+.box1 .infr {
     width: 767px;
     color: #ffffff;
     table-layout: auto
 }
 
-.column .box1 .infr .name {
+.box1 .infr .name {
     font-size: 24px;
     padding-bottom: 18px
 }
 
-.column .box2 {
+.box2 {
     padding: 0 50px 20px;
     background-color: #f8f9fa
 }
 
-.column .box2 td {
+.box2 td {
     line-height: 28px;
     color: #666666
 }
 
-.column .box {
+.box {
     padding: 0 50px 20px;
     border-top: 1px solid #eee;
+}
+
+.ui-indent2{
+    text-indent: 2em;
 }
