@@ -49,6 +49,10 @@ img {
     margin: auto;
 }
 
+.none {
+    display: none;
+}
+
 .wrapper {
     width: 1000px;
     line-height: 28px;

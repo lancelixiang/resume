@@ -81,11 +81,25 @@
       </tr>
     </table>
   </div>
-  <div class="box">
+  <div class="box none">
     <ul>
       <li class="title">自我评价</li>
       <li class="ui-indent2">
         我是一个工作能力和适应能力都很强的人，<span class="workingLife">11</span>年的工作生涯，铸就出我的吃苦耐劳和坚韧不拔的品质，而工作中的经验加上我天性的敏锐和机灵，使我能够适应这个飞速发展的社会。我敢于面对有挑战性的工作，因为这样会让我工作的更有激情。我希望能有更多机会充分发挥自己的工作能力，来体现自己的工作价值。
+      </li>
+    </ul>
+  </div>
+  <div class="box">
+    <ul>
+      <li class="title">自我介绍</li>
+      <li class="ui-indent2">
+        05年在广西大学（211）计算机与电子信息学院学习，专业为网络工程。09年毕业后在深圳从事web全栈开发，13年7月回长沙，开始前端开发至今。
+      </li>
+      <li class="ui-indent2">
+        我经历了网页设计由单纯的切页面向前端工程化的转变过程，出现了包管理工具、打包工具，熟练掌握了ES5、ES6、jquery、React、Redux、npm、webpack、ajax、fetch，同时有能力使用nodeJs进行全栈开发。在工作中，我带领的前端团队花了两个月时间完成了前后端分离，把数据的渲染放到前端来做，把后端开发人员从繁杂的页面布局中释放出来，同时前端端可以分开布署，减少了不必要的沟通成本，极大的提升了工作效率。
+      </li>
+      <li class="ui-indent2">
+        追逐最前沿技术，现公司从事的行业为大数据和云计算，通过在工作中的不断学习，了解的私有云有VMware和CloudOs，公有云有阿里云和腾讯云。由于工作的需要，正在学习Python。
       </li>
     </ul>
   </div>
@@ -196,8 +210,8 @@
   </div>
 </div>
 <script type="application/javascript">
-  const workingLife = new Date().getFullYear() - 2009;
-  const els = document.getElementsByClassName('workingLife');
+  var workingLife = new Date().getFullYear() - 2009;
+  var els = document.getElementsByClassName('workingLife');
   els[0].innerHTML = workingLife;
   els[1].innerHTML = workingLife;
 </script>
