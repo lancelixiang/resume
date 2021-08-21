@@ -14,12 +14,11 @@ ul {
     list-style: none;
 }
 
-ul ul {
-    padding-left: 1em;
-}
-
 li {
     line-height: 28px;
+}
+
+li li {
     text-indent: -21px;
     padding-left: 21px;
 }
