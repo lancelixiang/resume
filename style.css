@@ -19,7 +19,9 @@ ul ul {
 }
 
 li {
-    line-height: 28px
+    line-height: 28px;
+    text-indent: -21px;
+    padding-left: 21px;
 }
 
 table {
