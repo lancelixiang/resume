@@ -1,4 +1,9 @@
-html, body, div, p, ul, li {
+html,
+body,
+div,
+p,
+ul,
+li {
     margin: 0;
     padding: 0
 }
@@ -30,7 +35,8 @@ table {
     table-layout: fixed
 }
 
-th, td {
+th,
+td {
     padding: 0;
     text-align: left;
     line-height: 28px
@@ -91,7 +97,8 @@ img {
 }
 
 .box1 .hbox {
-    width: 185px;
+    /* width: 185px; */
+    width: 50px;
     height: 154px
 }
 
@@ -134,16 +141,16 @@ img {
     page-break-after: always;
 }
 
-.ui-lineBreak{
+.ui-lineBreak {
     display: block;
     height: 5px;
 }
 
-.ui-fr{
+.ui-fr {
     float: right;
 }
 
-.ui-small{
+.ui-small {
     font-size: 13px;
 }
 
@@ -156,5 +163,12 @@ img {
 @media print {
     .box1 .infr {
         color: #333;
+    }
+    .conNoShow {
+        height: 30px;
+    }
+
+    .conNoShow + .con {
+        border-top: none;
     }
 }
