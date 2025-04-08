@@ -166,9 +166,16 @@ img {
 }
 
 @media print {
-    .wrapper .PrintHeight {
+    .wrapper .PrintHeight40 {
         display: block;
-        height: 30px;
+        height: 40px;
+        /* margin-bottom: 2px;
+        border: 1px solid black; */
+    }
+
+    .wrapper .PrintHeight134 {
+        display: block;
+        height: 134px;
         /* margin-bottom: 2px;
         border: 1px solid black; */
     }
