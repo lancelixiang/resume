@@ -15,21 +15,12 @@ body {
     color: #444;
 }
 
-strong {
-    font-weight: 400;
-}
-
 ul {
     list-style: none;
 }
 
 li {
     line-height: 28px;
-}
-
-li li {
-    text-indent: -21px;
-    padding-left: 21px;
 }
 
 table {
@@ -53,29 +44,14 @@ td label {
 
 }
 
-img {
-    display: block;
-    border: 0 none;
-    margin: auto;
-}
-
-.none {
-    display: none;
-}
 
 .wrapper {
     width: 1000px;
     line-height: 28px;
-    /* border: 1px solid #dedede; */
     margin: auto auto -1px auto;
 }
 
-.head {
-    display: block;
-    background-color: #fafafa
-}
-
-.line {
+.line-top {
     border-top: 1px solid #eee;
 }
 
@@ -88,42 +64,46 @@ img {
 .title {
     height: 40px;
     font-size: 18px;
-    /* font-weight: bold; */
     color: #444;
     line-height: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid #eee; */
 }
 
-.box1 {
+.box-info {
     width: 1000px;
     word-wrap: break-word;
     color: #fff;
     background-color: #3f4160;
 }
 
-.box1 .hbox {
-    /* width: 185px; */
+.box-info .hbox {
     width: 50px;
     height: 154px
 }
 
-.box1 .infr {
+.box-info .infr {
     width: 767px;
     color: #fff;
     table-layout: auto
 }
 
-.box1 .infr .name {
+.box-info .infr .name {
     font-size: 22px;
     padding-bottom: 18px
 }
 
-.box2 {
+.box-edu {
     padding: 0 50px 20px;
-    /* background-color: #f8f9fa */
 }
 
-.box2 td {
+.box-edu .title {
+    padding-bottom: 5px;
+    border: none;
+}
+
+.box-edu td {
     line-height: 28px;
 }
 
@@ -133,22 +113,13 @@ img {
     margin-top: -1px;
 }
 
-.ui-indent2 {
-    text-indent: 2em;
-}
-
-.ui-indent5R {
-    text-indent: -5em;
-    padding-left: 5em;
+.ui-indent li {
+    text-indent: -1.6em;
+    padding-left: 2em;
 }
 
 .ui-pageBreak {
     page-break-after: always;
-}
-
-.ui-lineBreak {
-    display: block;
-    height: 5px;
 }
 
 .ui-fr {
@@ -159,6 +130,10 @@ img {
     font-size: 14px;
 }
 
+.ui-pt10 {
+    padding-top: 10px;
+}
+
 @media screen {
     body {
         margin-bottom: 50px;
@@ -166,29 +141,18 @@ img {
 }
 
 @media print {
-    .wrapper .PrintHeight40 {
-        display: block;
-        height: 40px;
-        /* margin-bottom: 2px;
-        border: 1px solid black; */
-    }
-
-    .wrapper .PrintHeight134 {
-        display: block;
-        height: 134px;
-        /* margin-bottom: 2px;
-        border: 1px solid black; */
-    }
-
-    .box1 .infr {
+    .box-info .infr {
         color: #333;
     }
 
-    .conNoShow {
-        height: 30px;
+    .PrintHeight40 {
+        height: 40px;
     }
 
-    .conNoShow+.con {
-        border-top: none;
+    .title,
+    .box,
+    .line-top,
+    .con {
+        border: none;
     }
 }
